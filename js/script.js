@@ -7,8 +7,8 @@ var name_two = "";
 
 function flames() {
 
-    name_one = $('#name-one').val().split("");
-    name_two = $('#name-two').val().split("");
+    name_one = $('#name-one').val().toLowerCase().split("");
+    name_two = $('#name-two').val().toLowerCase().split("");
 
     if(name_one.length==0 || name_two.length==0) {
         console.log("err");
