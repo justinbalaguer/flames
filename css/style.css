@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --bg-main: #f5f5f5;
+}
+
+body {
+    background-color : var(--bg-main) !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#result {
+    font-size: 50px;
+    font-weight: bolder;
+}
